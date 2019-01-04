@@ -1,0 +1,173 @@
+.embed-responsive {
+  position: relative;
+  background-image: url(../images/banda.jpg);
+  height: 50rem;
+  background-position: center center; }
+  .embed-responsive .informacion-concierto {
+    position: absolute;
+    top: 25%;
+    z-index: 100; }
+    .embed-responsive .informacion-concierto h1 {
+      font-size: 2rem;
+      line-height: 6rem;
+      font-family: "Sirin Stencil", cursive;
+      text-transform: uppercase; }
+      .embed-responsive .informacion-concierto h1 span {
+        font-weight: 500;
+        color: #7b228e;
+        box-shadow: 5px 5px 10px #7b228e; }
+    .embed-responsive .informacion-concierto p {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #7b228e;
+      box-shadow: 5px 5px 10px #7b228e; }
+
+.fixed-top {
+  transition: all 1s ease; }
+
+.fixed-top .active {
+  background-color: #a14fb3 !important;
+  border-bottom: 1px solid #ffffff; }
+
+.fixed-top.bg-success {
+  background-color: #7b228e !important;
+  box-shadow: 0px 5px 26px 2px rgba(0, 0, 0, 0.52); }
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 300; }
+  .navbar-brand span {
+    font-weight: 500; }
+
+.link {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Oswald", cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-decoration: none; }
+  .link:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff; }
+  .link .nav-link {
+    color: #ffffff; }
+
+.embed-responsive::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(123, 34, 142, 0.4); }
+
+@media (min-width: 992px) {
+  .embed-responsive {
+    background-image: unset;
+    height: auto; }
+    .embed-responsive .informacion-concierto {
+      top: 35%; }
+      .embed-responsive .informacion-concierto h1 {
+        font-size: 4rem;
+        line-height: unset; } }
+.contenido-principal .contenido .text {
+  text-transform: uppercase;
+  color: #7b228e;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif; }
+
+.lineup {
+  background-image: url(../images/8.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .lineup .title h2 {
+    font-family: "Sirin Stencil", cursive;
+    font-size: 4rem; }
+  .lineup .title h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: #ffffff; }
+
+.bg-danger {
+  background-color: #f53756 !important; }
+
+.bg-success {
+  background-color: #ffffff !important; }
+
+.bg-warning {
+  background-color: #cccccc !important; }
+
+.bg-secondary {
+  background-color: #f52f97 !important; }
+
+.separador::after {
+  content: "";
+  display: block;
+  height: 120px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120px;
+  margin: 0 auto; }
+
+.rock::after {
+  background-image: url(../images/guitarra.png); }
+
+.dj::after {
+  background-image: url(../images/dj.png); }
+
+.horario.bg-warning li:nth-child(2n+1) {
+  background-color: #ffffff !important; }
+
+.horario.bg-success li:nth-child(2n+1) {
+  background-color: #cccccc !important; }
+
+.galeria .title {
+  font-family: "Sirin Stencil", cursive;
+  font-size: 4rem;
+  color: #7b228e; }
+
+/** Fecha */
+.fecha {
+  font-size: 2.8rem; }
+
+.fecha span {
+  font-weight: 700; }
+
+.fecha span:first-child::before {
+  display: none; }
+
+.fecha span::before {
+  content: "-";
+  clear: both; }
+
+.boletos {
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .boletos .title {
+    font-family: "Sirin Stencil", cursive;
+    font-size: 4rem;
+    color: #7b228e !important; }
+  .boletos h3 {
+    font-family: "Oswald", cursive;
+    font-size: 2rem; }
+  .boletos .active {
+    background-color: #7b228e;
+    border-color: #ffffff; }
+  .boletos li {
+    font-size: 20px; }
+  .boletos .fondo-precio {
+    background-color: #58D68D; }
+  .boletos .precio {
+    font-size: 25px;
+    color: #ffffff; }
+  .boletos p {
+    font-size: 1.2rem; }
+
+/*# sourceMappingURL=style.css.map */

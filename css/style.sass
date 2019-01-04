@@ -1,0 +1,183 @@
+// ULTRA con SASS
+.embed-responsive
+    position: relative
+    background-image: url(../images/banda.jpg)
+    height: 50rem
+    background-position: center center
+    .informacion-concierto
+        position: absolute
+        top: 25%
+        z-index: 100
+        h1
+            font-size: 2rem
+            line-height: 6rem
+            font-family: 'Sirin Stencil', cursive
+            text-transform: uppercase
+            span
+                font-weight: 500
+                color: rgb(123, 34, 142)
+                box-shadow: 5px 5px 10px rgb(123, 34, 142)
+        p
+            font-family: 'Oswald', sans-serif
+            font-size: 1.5rem
+            text-align: center
+            text-transform: uppercase
+            font-weight: 500
+            color: rgb(123, 34, 142)
+            box-shadow: 5px 5px 10px rgb(123, 34, 142)
+
+.fixed-top
+    transition: all 1s ease
+.fixed-top .active
+    background-color: rgb(161, 79, 179) !important
+    border-bottom: 1px solid #ffffff
+
+.fixed-top.bg-success
+    background-color: rgba(123,34,142,1) !important
+    box-shadow: 0px 5px 26px 2px rgba(0,0,0,0.52)
+.navbar-brand
+    font-size: 1.8rem
+    font-weight: 300
+    span
+        font-weight: 500
+.link
+    text-transform: uppercase
+    color: #ffffff
+    font-family: 'Oswald', cursive
+    font-weight: 400
+    font-size: 1.1rem
+    text-decoration: none
+    // border-bottom: 1ps solid transparent
+    &:hover
+        color: #ffffff
+        border-bottom: 1px solid #ffffff
+    .nav-link
+        color: #ffffff
+
+.embed-responsive::after
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    height: 100%
+    width: 100%
+    background-color: rgba(123, 34, 142,.4)
+    
+@media (min-width: 992px)
+    .embed-responsive
+        background-image: unset
+        height: auto
+        .informacion-concierto
+            top: 35%
+            h1
+                font-size: 4rem
+                line-height: unset
+
+
+// Festival
+
+.contenido-principal
+    .contenido
+        .text
+            text-transform: uppercase
+            color: rgb(123, 34, 142)
+            font-weight: 500
+            font-family: 'Oswald', sans-serif
+// LineUp
+
+
+
+.lineup
+    background-image: url(../images/8.jpg)
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-size: cover
+    .title
+        h2 
+            font-family: 'Sirin Stencil', cursive
+            font-size: 4rem
+        h3
+            font-family: 'Oswald',sans-serif
+            font-size: 2rem
+            color: #ffffff
+.bg-danger
+    background-color: #f53756!important
+.bg-success
+    background-color: #ffffff!important
+.bg-warning
+    background-color: #cccccc!important
+.bg-secondary
+    background-color: #f52f97!important
+
+.separador::after
+    content: ''
+    display: block 
+    height: 120px
+    width: 300px
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: 120px
+    margin: 0 auto
+
+.rock::after
+    background-image: url(../images/guitarra.png)
+.dj::after
+    background-image: url(../images/dj.png)
+
+.horario.bg-warning li:nth-child(2n+1)
+    background-color: #ffffff!important
+.horario.bg-success li:nth-child(2n+1)
+    background-color: #cccccc!important
+
+// Galeria
+
+.galeria
+    .title
+        font-family: 'Sirin Stencil', cursive
+        font-size: 4rem
+        color: rgb(123, 34, 142)
+
+
+
+/** Fecha **/
+
+.fecha
+    font-size: 2.8rem
+
+.fecha span
+    font-weight: 700
+
+.fecha span:first-child::before
+    display: none
+
+.fecha span::before 
+    content: '-'
+    clear: both
+
+
+    //boletos
+    
+.boletos
+    background-image: url(../images/1.jpg)
+    background-size: cover
+    background-attachment: fixed
+    background-repeat: no-repeat
+    .title
+        font-family: 'Sirin Stencil', cursive
+        font-size: 4rem
+        color: rgb(123, 34, 142) !important
+    h3
+        font-family: 'Oswald', cursive
+        font-size: 2rem
+    .active
+        background-color: rgb(123, 34, 142)
+        border-color: #ffffff
+    li
+        font-size: 20px
+    .fondo-precio
+        background-color: #58D68D
+    .precio
+        font-size: 25px
+        color: #ffffff
+    p
+        font-size: 1.2rem
